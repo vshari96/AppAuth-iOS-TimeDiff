@@ -44,7 +44,7 @@ static NSString *const kOpenIDConfigurationWellKnownPath = @".well-known/openid-
 /*! @brief Max allowable iat (Issued At) time skew
     @see https://openid.net/specs/openid-connect-core-1_0.html#IDTokenValidation
  */
-static int const kOIDAuthorizationSessionIATMaxSkew = 600;
+static int const kOIDAuthorizationSessionIATMaxSkew = 86400;
 
 NS_ASSUME_NONNULL_BEGIN
 
